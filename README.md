@@ -1,10 +1,12 @@
 ## 阿里云人机验证
 
+##官方文档 [https://help.aliyun.com/product/28308.html](官方文档)
+
 ## 安装
 
 ```shell
 composer require liuyexing/man_machine_verification
-
+```
 
 ## 使用以tp5为例：
 
