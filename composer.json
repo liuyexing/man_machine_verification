@@ -1,0 +1,29 @@
+{
+    "name": "liuyexing/man_machine_verification",
+    "description": "\"阿里云人机验证：滑块验证、无痕验证、智能验证",
+	"keywords":[
+		"阿里云人机验证",
+		"滑块验证",
+		"无痕验证",
+		"智能验证"，
+		"阿里云智能验证"
+	],
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "liuyexing",
+            "email": "liuyexing_vip@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php":">=5.3",
+		"anchnet/aliyun-openapi-php-sdk": "dev-master",
+	},
+	"autoload":{
+		"psr-4":{
+			"AliyunManMachineVerification":"src/"
+		}
+	}
+}
