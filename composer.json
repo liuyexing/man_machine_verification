@@ -21,7 +21,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"AliyunManMachineVerification": "src/"
+			"AliyunManMachineVerification\\": "src/"
 		}
 	}
 }
